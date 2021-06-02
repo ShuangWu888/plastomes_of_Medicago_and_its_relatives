@@ -22,3 +22,5 @@ perl NOVOPlasty3.8.3.pl -c config.txt
 ### Annotation
 
 [GeSeq](https://chlorobox.mpimp-golm.mpg.de/geseq.html)
+
+[Geneious v.10.2.6](https://www.geneious.com/)
