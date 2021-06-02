@@ -36,3 +36,5 @@ perl NOVOPlasty3.8.3.pl -c config.txt
 
 ### Repeat estimate
 
+[Tandem Repeats Finder v.4.09](https://tandem.bu.edu/trf/trf.download.html)
+
