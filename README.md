@@ -31,3 +31,6 @@ perl NOVOPlasty3.8.3.pl -c config.txt
 ## Inversion inference
 
 [progressiveMauve v.2.4.0](http://darlinglab.org/mauve/user-guide/progressivemauve.html)
+
+## Repeat analysis
+
