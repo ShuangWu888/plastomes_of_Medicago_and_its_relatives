@@ -61,6 +61,20 @@ perl 06.Count_repeat_content.pl mask_repeat.individual.fasta repeat_content.resu
 [mVISTA](https://genome.lbl.gov/vista/mvista/submit.shtml)
 
 ### Detect the sequence divergence and determine highly divergent regions
-```
-python3 [get_annotated_regions_from_gb.py](https://github.com/Kinggerm/PersonalUtilities/) merge.20taxa.gb -o result
 
+[get_annotated_regions_from_gb.py](https://github.com/Kinggerm/PersonalUtilities/)
+
+[concatenate_fasta.py](https://github.com/Kinggerm/PersonalUtilities/)
+
+```
+python3 get_annotated_regions_from_gb.py merge.20taxa.gb -o result
+mafft result/gene/gene.fasta > result/gene/gene-mafft/gene.mafft.fasta
+mafft result/intergene/intergene.fasta > result/intergene/intergene-mafft/intergene.mafft.fasta
+python3 concatenate_fasta.py gene_1.mafft.fasta gene_2.mafft.fasta ... gene_n.mafft.fasta -o PC.mafft.fasta
+python3 concatenate_fasta.py intergene_1.mafft.fasta intergene_2.mafft.fasta ... intergene_n.mafft.fasta -o PN.mafft.fasta
+python3 concatenate_fasta.py PC.mafft.fasta PN.mafft.fasta -o PCN.mafft.fasta
+```
+
+[MAFFT v.7.453](https://mafft.cbrc.jp/alignment/software/)
+
+[DnaSP v.6](https://dnasp.software.informer.com/)(calculate the nucleotide diversity (pi) of each coding gene and non-coding regions (i.e. PC, PN and PCN))
