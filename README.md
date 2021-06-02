@@ -57,5 +57,9 @@ perl 06.Count_repeat_content.pl mask_repeat.individual.fasta repeat_content.resu
 
 ## Comparative plastome analysis
 
+### Display interspecific variations graphically
 [mVISTA](https://genome.lbl.gov/vista/mvista/submit.shtml)
-(display interspecific variations graphically)
+
+### Detect the sequence divergence and determine highly divergent regions
+
+
