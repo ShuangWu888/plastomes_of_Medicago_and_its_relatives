@@ -119,5 +119,5 @@ java -jar jmodeltest-2.1.7/jModelTest.jar -AIC -AICc -d merged_shared_gene.mafft
 ```
 ynoo # calculate nonsynonymous (dN) and synonymous (dS) substitution rates 
 RAxML/standard-RAxML-master/raxmlHPC-PTHREADS -s gene_mafft_nostop.phy -n gene_mafft_nostop -m GTRGAMMAI -f a -x 12345 -N 100 -p 12345 -T 30
-# generate ML tree og gene using RAxML as constraint tree during the branch specific dN and dS rate estimation in PAML4.8/codeml free-ratio model (model=1).
-
+# generate ML tree og gene using RAxML as constraint tree during the branch specific dN and dS rate estimation in PAML4.8/codeml free-ratio model (model=1)
+codeml # branch specific dN and dS rate estimation in PAML4.8/codeml free-ratio model (model=1)
