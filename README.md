@@ -61,5 +61,6 @@ perl 06.Count_repeat_content.pl mask_repeat.individual.fasta repeat_content.resu
 [mVISTA](https://genome.lbl.gov/vista/mvista/submit.shtml)
 
 ### Detect the sequence divergence and determine highly divergent regions
-
+```
+python3 [get_annotated_regions_from_gb.py](https://github.com/Kinggerm/PersonalUtilities/) merge.20taxa.gb -o result
 
