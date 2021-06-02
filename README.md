@@ -97,3 +97,15 @@ python3 concatenate_fasta.py PC.mafft.fasta PN.mafft.fasta -o PCN.mafft.fasta
 [DnaSP v.6](https://dnasp.software.informer.com/) (calculate the nucleotide diversity (pi) of each coding gene and non-coding regions (i.e. PC, PN and PCN))
 
 ## Phylogenetic inference
+
+[concatenate_fasta.py](https://github.com/Kinggerm/PersonalUtilities/)
+
+```
+python3 concatenate_fasta.py shared_gene_1.mafft.fasta shared_gene_2.mafft.fasta ... shared_gene_n.mafft.fasta -o merged_shared_gene.mafft.fasta
+clustalw2 -INFILE=merged_shared_gene.mafft.fasta -CONVERT -TYPE=DNA -OUTFILE=merged_shared_gene.mafft.phy -OUTPUT=PHYLIP
+java -jar jmodeltest-2.1.7/jModelTest.jar -AIC -AICc -d merged_shared_gene.mafft.fasta -g 8 -o 00.jmodeltest.out -s 203 -tr 30 -f -i
+```
+
+[ClustalW v.2.1](http://www.clustal.org/download/current/)
+
+[PhyML 3.1](https://github.com/stephaneguindon/phyml)
