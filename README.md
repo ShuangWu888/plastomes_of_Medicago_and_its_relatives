@@ -8,4 +8,4 @@ Shuang Wu, Jinyuan Chen, Ying Li, Ai Liu, Ao Li, Mou Yin, Nawal Shrestha, Jianqu
 
 ## Contact information
 
-[wush19@lzu.edu.cn]
+wush19@lzu.edu.cn; rengp@lzu.edu.cn
