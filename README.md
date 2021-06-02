@@ -78,3 +78,5 @@ python3 concatenate_fasta.py PC.mafft.fasta PN.mafft.fasta -o PCN.mafft.fasta
 [MAFFT v.7.453](https://mafft.cbrc.jp/alignment/software/)
 
 [DnaSP v.6](https://dnasp.software.informer.com/) (calculate the nucleotide diversity (pi) of each coding gene and non-coding regions (i.e. PC, PN and PCN))
+
+## Phylogenetic inference
