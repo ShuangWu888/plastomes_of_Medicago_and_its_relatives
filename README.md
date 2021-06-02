@@ -48,5 +48,10 @@ We used REPuter program to identify dispersed repeats with a minimum repeat size
 
 ### Caculate of repeat content
 ```
-# Mask repeat sequences with character "N" to eliminate the influence of nested or overlapping repeats in subsequent analysis.
 perl 05.Gff2maskGenome.pl repeat.gff individual.fasta mask_repeat.individual.fasta
+# Mask repeat sequences with character "N" to eliminate the influence of nested or overlapping repeats in subsequent analysis.
+
+perl 06.Count_repeat_content.pl mask_repeat.individual.fasta repeat_content.result.txt
+# Caculate repeat content without the influence of nested or overlapping repeats.
+```
+
