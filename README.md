@@ -15,6 +15,9 @@ wush19@lzu.edu.cn; rengp@lzu.edu.cn
 ### Assembly
 
 [NOVOPlasty3.8.3](https://github.com/ndierckx/NOVOPlasty)
+```
+perl NOVOPlasty3.8.3.pl -c config.txt
+```
 
 ### Annotation
 
