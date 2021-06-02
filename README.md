@@ -46,3 +46,4 @@ perl NOVOPlasty3.8.3.pl -c config.txt
 
 We used REPuter program to identify dispersed repeats with a minimum repeat size of 30 bp and identity of no less than 90% (hamming distance equal to 3).
 
+### Caculate of repeat content
