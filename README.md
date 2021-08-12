@@ -32,7 +32,7 @@ perl NOVOPlasty3.8.3.pl -c config.txt
 
 [trinityrnaseq-Trinity-v2.8.5](https://github.com/trinityrnaseq/trinityrnaseq/releases)
 
-[TransDecoder-TransDecoder-v5.5.0](https://github.com/TransDecoder/TransDecoder/releases/tag/TransDecoder-v5.5.0)
+[TransDecoder-v5.5.0](https://github.com/TransDecoder/TransDecoder/releases/tag/TransDecoder-v5.5.0)
 
 [ncbi-blast-2.10.0+](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
